@@ -1,0 +1,1 @@
+Mac OS X Cocoa Application that interprets a minimal drawing script language similar to LOGO and renders the output in the form of ASCII art. This App primarily servers the purpose to get familiar with the Objective-C programming language and Apple's Cocoa framework.
