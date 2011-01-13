@@ -12,6 +12,7 @@
 		7B5E3C4D12B6CDC400996B49 /* TNMiniLogoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */; };
 		7B5E3C7012B6D3DF00996B49 /* TNMiniLogoInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */; };
 		7BF3997D12DF141500591ABC /* TNDrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */; };
+		7BF3999C12DF2B3500591ABC /* TNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3999B12DF2B3500591ABC /* TNConstants.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -34,6 +35,8 @@
 		7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMiniLogoInterpreter.m; sourceTree = "<group>"; };
 		7BF3997B12DF141500591ABC /* TNDrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNDrawingBoard.h; sourceTree = "<group>"; };
 		7BF3997C12DF141500591ABC /* TNDrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNDrawingBoard.m; sourceTree = "<group>"; };
+		7BF3999A12DF2B3500591ABC /* TNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNConstants.h; sourceTree = "<group>"; };
+		7BF3999B12DF2B3500591ABC /* TNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNConstants.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CocoaMiniLogo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaMiniLogo-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CocoaMiniLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaMiniLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +64,8 @@
 				7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */,
 				7BF3997B12DF141500591ABC /* TNDrawingBoard.h */,
 				7BF3997C12DF141500591ABC /* TNDrawingBoard.m */,
+				7BF3999A12DF2B3500591ABC /* TNConstants.h */,
+				7BF3999B12DF2B3500591ABC /* TNConstants.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 				7B5E3C4D12B6CDC400996B49 /* TNMiniLogoController.m in Sources */,
 				7B5E3C7012B6D3DF00996B49 /* TNMiniLogoInterpreter.m in Sources */,
 				7BF3997D12DF141500591ABC /* TNDrawingBoard.m in Sources */,
+				7BF3999C12DF2B3500591ABC /* TNConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

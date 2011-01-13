@@ -20,7 +20,19 @@
 }
 
 -(NSString*)interpretMiniLogoString:(NSString*) input{
-	return @"This is a rendered MiniLOGO output!";
+	
+	NSString* output;
+	
+	[drawingBoard replaceCharacterAtRow:[NSNumber numberWithInt:0] andColumn:[NSNumber numberWithInt:0] withCharacter:'C'];
+	
+	int i = [drawingBoard.field count];
+	
+	for(int j = 0; j < i; j++){
+		NSString* newLine = [NSString stringWithFormat:@"%@%@", [drawingBoard.field objectAtIndex:j], @"\n"];
+		output = [output stringByAppendingString:newLine];
+	}
+	
+	return output;
 }
 
 @end

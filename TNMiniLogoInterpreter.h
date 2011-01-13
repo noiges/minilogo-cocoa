@@ -18,10 +18,11 @@
 #define MAX_CMD_LENGTH      16
 #define SIDE_SIZE           80
 
-
 @interface TNMiniLogoInterpreter : NSObject {
 	
 	TNDrawingBoard* drawingBoard;
+	
+	NSDictionary* directions;
 	
 }
 
