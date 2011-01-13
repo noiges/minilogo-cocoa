@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
-									<integer>11</integer>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7B0B700212B62D6E000516F0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CocoaMiniLogo-Info.plist</string>
+								<string>TNBoard.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,23 +325,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7B0B700312B62D6E000516F0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CocoaMiniLogo-Info.plist</string>
+										<string>TNBoard.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7B1860D512B6DF89003C8EF2</string>
+										<string>7BF3995312DF126D00591ABC</string>
 										<key>history</key>
 										<array>
-											<string>7B5E3CAE12B6D9F200996B49</string>
-											<string>7B1860AC12B6DDEF003C8EF2</string>
-											<string>7B1860AD12B6DDEF003C8EF2</string>
-											<string>7B1860AE12B6DDEF003C8EF2</string>
-											<string>7B1860AF12B6DDEF003C8EF2</string>
-											<string>7B1860B012B6DDEF003C8EF2</string>
-											<string>7B1860B112B6DDEF003C8EF2</string>
-											<string>7B1860B212B6DDEF003C8EF2</string>
 											<string>7B1860B312B6DDEF003C8EF2</string>
-											<string>7B1860D412B6DF89003C8EF2</string>
+											<string>7B1966D112DE37C1001B4274</string>
+											<string>7B1966D812DE37C1001B4274</string>
+											<string>7B2C9CA012DF1249002A8438</string>
+											<string>7B2C9CA112DF1249002A8438</string>
+											<string>7B2C9CA212DF1249002A8438</string>
+											<string>7B2C9CA312DF1249002A8438</string>
+											<string>7B2C9CA412DF1249002A8438</string>
+											<string>7B2C9CA512DF1249002A8438</string>
+											<string>7B2C9CA612DF1249002A8438</string>
+											<string>7B2C9CA712DF1249002A8438</string>
+											<string>7B2C9CA912DF1249002A8438</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,23 +357,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1378, 446}}</string>
+								<string>{{0, 0}, {1378, 664}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1680 969 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>446pt</string>
+							<string>664pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>477pt</string>
+							<string>259pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -380,7 +382,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1378, 450}}</string>
+										<string>{{10, 27}, {1378, 232}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 59 1680 969 0 0 1680 1028 </string>
 									</dict>
@@ -436,7 +438,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {1378, 439}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -464,11 +466,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7B1860B612B6DDEF003C8EF2</string>
+				<string>7BF3995412DF126D00591ABC</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>7B1860B712B6DDEF003C8EF2</string>
+				<string>7BF3995512DF126D00591ABC</string>
 				<string>7B0B700212B62D6E000516F0</string>
-				<string>7B1860B812B6DDEF003C8EF2</string>
+				<string>7BF3995612DF126D00591ABC</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -617,14 +619,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7B1860B912B6DDEF003C8EF2</string>
+				<string>7BF3995712DF126D00591ABC</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>7B1860BA12B6DDEF003C8EF2</string>
-				<string>7B1860BB12B6DDEF003C8EF2</string>
-				<string>7B1860BC12B6DDEF003C8EF2</string>
-				<string>7B1860BD12B6DDEF003C8EF2</string>
-				<string>7B1860BE12B6DDEF003C8EF2</string>
+				<string>7BF3995812DF126D00591ABC</string>
+				<string>7BF3995912DF126D00591ABC</string>
+				<string>7BF3995A12DF126D00591ABC</string>
+				<string>7BF3995B12DF126D00591ABC</string>
+				<string>7BF3995C12DF126D00591ABC</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -658,8 +660,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7B1860C012B6DDEF003C8EF2</string>
-		<string>7B1860C112B6DDEF003C8EF2</string>
+		<string>7BF3995D12DF126D00591ABC</string>
+		<string>7BF3995E12DF126D00591ABC</string>
+		<string>7BF3995F12DF126D00591ABC</string>
 		<string>/Users/nokinen/Code/XCode/CocoaMiniLogo/CocoaMiniLogo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1036,7 +1039,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>7B898C8712B6CD9C00A18D7A</string>
+				<string>7B2C9CB312DF1249002A8438</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -1450,33 +1453,44 @@
 			<string>597 125 616 374 0 0 1280 1002 </string>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.refactoring</string>
 			<key>IncludeInToolsMenu</key>
 			<integer>0</integer>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<integer>1</integer>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>7B2C9C7012DF0C1E002A8438</string>
+							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>{{0, 0}, {994, 550}}</string>
 								<key>RubberWindowFrame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>21 414 994 591 0 0 1680 1028 </string>
+								<key>XCRefactoringSplitViewLowerHeight</key>
+								<real>230</real>
+								<key>XCRefactoringSplitViewTotalHeight</key>
+								<real>467</real>
 							</dict>
 							<key>Module</key>
 							<string>XCRefactoringModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>550pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>550pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1485,8 +1499,20 @@
 			<array>
 				<string>XCRefactoringModule</string>
 			</array>
+			<key>StatusbarIsVisible</key>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>7B2C9C7112DF0C1E002A8438</string>
+				<string>7B2C9C7212DF0C1E002A8438</string>
+				<string>7B2C9C7012DF0C1E002A8438</string>
+			</array>
 			<key>WindowString</key>
-			<string>200 200 500 356 0 0 1920 1200 </string>
+			<string>21 414 994 591 0 0 1680 1028 </string>
+			<key>WindowToolGUID</key>
+			<string>7B2C9C7112DF0C1E002A8438</string>
+			<key>WindowToolIsVisible</key>
+			<false/>
 		</dict>
 	</array>
 </dict>

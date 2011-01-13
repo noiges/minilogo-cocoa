@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface MiniLogoController : NSObject {
+@interface TNMiniLogoController : NSObject {
 	IBOutlet NSScrollView* inputTextView;
 	IBOutlet NSScrollView* outputTextView;
 }

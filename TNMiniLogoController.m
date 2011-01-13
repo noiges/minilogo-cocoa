@@ -6,11 +6,11 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "MiniLogoController.h"
-#import "MiniLogoInterpreter.h"
+#import "TNMiniLogoController.h"
+#import "TNMiniLogoInterpreter.h"
 
 
-@implementation MiniLogoController
+@implementation TNMiniLogoController
 
 -(IBAction)clearInputTextView:(id)sender{
 	[[inputTextView documentView]setString:@""];
@@ -19,7 +19,7 @@
 
 -(IBAction)drawOutputTextView:(id)sender{
 	
-	MiniLogoInterpreter* interpreter = [[MiniLogoInterpreter alloc]init];
+	TNMiniLogoInterpreter* interpreter = [[TNMiniLogoInterpreter alloc]init];
 	[[outputTextView documentView]setString:[interpreter interpretMiniLogoString:[[inputTextView documentView]string]]];
 	[interpreter release];
 }

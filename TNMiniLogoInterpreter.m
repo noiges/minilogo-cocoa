@@ -6,10 +6,18 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "MiniLogoInterpreter.h"
+#import "TNMiniLogoInterpreter.h"
 
+@implementation TNMiniLogoInterpreter
 
-@implementation MiniLogoInterpreter
+-(id)init{
+
+	if (self = [super init]) {
+		drawingBoard = [[TNDrawingBoard alloc]init];
+	}
+	
+	return self;
+}
 
 -(NSString*)interpretMiniLogoString:(NSString*) input{
 	return @"This is a rendered MiniLOGO output!";
