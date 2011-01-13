@@ -24,7 +24,6 @@
 		field = [[NSMutableArray alloc]init];
 		
 		// Initialize line with SIDE_SIZE whitespace characters
-		//NSMutableString* line = [NSMutableString stringWithString:@""];
 		NSMutableString* line = [@"" mutableCopy];
 		for(int i = 0; i < SIDE_SIZE; i++){
 			[line appendString:@"0"];

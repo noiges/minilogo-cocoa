@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -279,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,12 +311,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>7B0B700212B62D6E000516F0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TNDrawingBoard.m</string>
+								<string>TNMiniLogoInterpreter.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7B0B700312B62D6E000516F0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TNDrawingBoard.m</string>
+										<string>TNMiniLogoInterpreter.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7B990ADF12DF67FB00A683D8</string>
+										<string>7B990BBF12DF785500A683D8</string>
 										<key>history</key>
 										<array>
 											<string>7BF399DB12DF457300591ABC</string>
@@ -340,15 +340,16 @@
 											<string>7BF399DF12DF457300591ABC</string>
 											<string>7BF399E012DF457300591ABC</string>
 											<string>7BF399E112DF457300591ABC</string>
-											<string>7BF399E212DF457300591ABC</string>
-											<string>7B99099B12DF4C1300A683D8</string>
 											<string>7B990A5D12DF561400A683D8</string>
 											<string>7B990A6B12DF61C300A683D8</string>
-											<string>7B990A7412DF620500A683D8</string>
-											<string>7B990ADB12DF67FB00A683D8</string>
-											<string>7B990ADC12DF67FB00A683D8</string>
-											<string>7B990ADD12DF67FB00A683D8</string>
-											<string>7B990ADE12DF67FB00A683D8</string>
+											<string>7B990AE212DF6C2C00A683D8</string>
+											<string>7B990AE312DF6C2C00A683D8</string>
+											<string>7B990AE512DF6C2C00A683D8</string>
+											<string>7B990B2012DF6EE400A683D8</string>
+											<string>7B990B8912DF743E00A683D8</string>
+											<string>7B990B8A12DF743E00A683D8</string>
+											<string>7B990B8B12DF743E00A683D8</string>
+											<string>7B990BBD12DF781F00A683D8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
