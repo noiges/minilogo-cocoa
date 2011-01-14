@@ -70,6 +70,7 @@
 	
 	// Add SIDE_SIZE of the above lines to my field array
 	for(int j = 0; j < SIDE_SIZE; j++){
+		[[field objectAtIndex:j] autorelease];
 		[field replaceObjectAtIndex:j withObject:[line mutableCopy]];
 	}
 	

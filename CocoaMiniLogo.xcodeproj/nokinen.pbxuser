@@ -412,6 +412,7 @@
 			7B476BE012E113AD00088E0E /* PBXTextBookmark */ = 7B476BE012E113AD00088E0E /* PBXTextBookmark */;
 			7B476BE412E113D200088E0E /* PBXTextBookmark */ = 7B476BE412E113D200088E0E /* PBXTextBookmark */;
 			7B476BE812E1146800088E0E /* PBXTextBookmark */ = 7B476BE812E1146800088E0E /* PBXTextBookmark */;
+			7B476BEB12E1180900088E0E /* PBXTextBookmark */ = 7B476BEB12E1180900088E0E /* PBXTextBookmark */;
 			7B74AD9512E0ADCC006BFF07 = 7B74AD9512E0ADCC006BFF07 /* PBXTextBookmark */;
 			7B74AE3712E0B655006BFF07 = 7B74AE3712E0B655006BFF07 /* PBXTextBookmark */;
 			7B74AE7D12E0BF17006BFF07 = 7B74AE7D12E0BF17006BFF07 /* PBXTextBookmark */;
@@ -1952,7 +1953,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 57";
 		rLen = 0;
-		rLoc = 2110;
+		rLoc = 2151;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 195;
@@ -3004,7 +3005,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 65";
 		rLen = 0;
-		rLoc = 1763;
+		rLoc = 1804;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 794;
@@ -3094,7 +3095,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 81";
 		rLen = 0;
-		rLoc = 2001;
+		rLoc = 2042;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 1073;
@@ -3104,7 +3105,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 82";
 		rLen = 0;
-		rLoc = 2001;
+		rLoc = 2042;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 1072;
@@ -3124,7 +3125,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 83";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 1072;
@@ -3134,7 +3135,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 84";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 1073;
@@ -3154,7 +3155,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 87";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 1073;
@@ -3164,7 +3165,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 87";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 1190;
@@ -3174,7 +3175,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 87";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 509;
 		vrLoc = 1190;
@@ -3274,7 +3275,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 80";
 		rLen = 0;
-		rLoc = 1818;
+		rLoc = 1859;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 0;
@@ -3284,7 +3285,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 86";
 		rLen = 0;
-		rLoc = 1917;
+		rLoc = 1958;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 1417;
@@ -3304,7 +3305,7 @@
 		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
 		name = "TNDrawingBoard.m: 76";
 		rLen = 0;
-		rLoc = 1800;
+		rLoc = 1841;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 829;
@@ -3328,6 +3329,16 @@
 		rType = 0;
 		vrLen = 1057;
 		vrLoc = 0;
+	};
+	7B476BEB12E1180900088E0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
+		name = "TNDrawingBoard.m: 73";
+		rLen = 0;
+		rLoc = 1770;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 1059;
 	};
 	7B5E3C4B12B6CDC400996B49 /* TNMiniLogoController.h */ = {
 		uiCtxt = {
@@ -3508,9 +3519,9 @@
 	};
 	7BF3997C12DF141500591ABC /* TNDrawingBoard.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1317, 1339}}";
-			sepNavSelRange = "{275, 518}";
-			sepNavVisRange = "{0, 1057}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 1313}}";
+			sepNavSelRange = "{1770, 0}";
+			sepNavVisRange = "{1059, 966}";
 			sepNavWindowFrame = "{{15, 4}, {909, 1024}}";
 		};
 	};
