@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "TNDrawingBoard.h"
+#import "TNConstants.h"
 
 #define ERROR_CMD_LINE      -1
 #define ERROR_INPUT_FILE    -2
@@ -20,13 +21,15 @@
 
 @interface TNMiniLogoInterpreter : NSObject {
 	
+@private
 	TNDrawingBoard* drawingBoard;
-	
-	NSDictionary* directions;
+	NSDictionary* directionsDictionary;
+	NSDictionary* commandDictionary;
 	
 }
 
 -(id)init;
 -(NSString*)interpretMiniLogoString:(NSString*) input;
+-(void)dealloc;
 
 @end

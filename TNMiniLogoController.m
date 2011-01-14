@@ -12,16 +12,33 @@
 
 @implementation TNMiniLogoController
 
+-(id)init{
+
+	if (self = [super init]) {
+		interpreter = [[TNMiniLogoInterpreter alloc]init];
+	}
+	
+	return self;
+}
+
 -(IBAction)clearInputTextView:(id)sender{
+
 	[[inputTextView documentView]setString:@""];
 	[[outputTextView documentView]setString:@""];
+	
 }
 
 -(IBAction)drawOutputTextView:(id)sender{
 	
-	TNMiniLogoInterpreter* interpreter = [[TNMiniLogoInterpreter alloc]init];
-	[[outputTextView documentView]setString:[interpreter interpretMiniLogoString:[[inputTextView documentView]string]]];
+	NSString* input = [[inputTextView documentView]string];
+	NSString* output = [interpreter interpretMiniLogoString:input];
+	[[outputTextView documentView]setString:output];
+	 
+}
+
+-(void)dealloc{
 	[interpreter release];
+	[super dealloc];
 }
 
 @end

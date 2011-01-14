@@ -12,23 +12,26 @@
 @interface TNDrawingBoard : NSObject {
 	
 	NSMutableArray* field;
-	
 	NSNumber* x;
 	NSNumber* y;
-	
+	NSNumber* deltaX;
+	NSNumber* deltaY;
 	NSNumber* dir;
-	
 	BOOL write;
-	
 }
 
 -(id)init;
--(void)replaceCharacterAtRow:(NSNumber*)row andColumn:(NSNumber*)column withCharacter:(unichar)character;
+-(void)replaceStringAt:(NSNumber*)row andAt:(NSNumber*)column with:(NSString*)string;
+-(NSString*)stringAt:(NSNumber*)row andAt:(NSNumber*)column;
+-(void)resetBoard;
+-(void)dealloc;
 
 @property (retain, readonly) NSArray* field;
-@property (retain, readonly) NSNumber* x;
-@property (retain, readonly) NSNumber* y;
-@property (retain, readonly) NSNumber* dir;
+@property (retain, readwrite) NSNumber* x;
+@property (retain, readwrite) NSNumber* y;
+@property (retain, readwrite) NSNumber* deltaX;
+@property (retain, readwrite) NSNumber* deltaY;
+@property (retain, readwrite) NSNumber* dir;
 @property (readwrite) BOOL write;
 
 @end

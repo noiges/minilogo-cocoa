@@ -7,14 +7,20 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TNMiniLogoInterpreter.h"
 
 
 @interface TNMiniLogoController : NSObject {
+
+	@private
 	IBOutlet NSScrollView* inputTextView;
 	IBOutlet NSScrollView* outputTextView;
+	TNMiniLogoInterpreter* interpreter;
 }
 
+-(id)init;
 -(IBAction)clearInputTextView:(id)sender;
 -(IBAction)drawOutputTextView:(id)sender;
+-(void)dealloc;
 
 @end
