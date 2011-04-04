@@ -28,7 +28,7 @@
 
 -(id)init{
 
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		
 		drawingBoard = [[TNDrawingBoard alloc]init];
 		
@@ -89,7 +89,7 @@
 	NSEnumerator* enumerator = [commands objectEnumerator];
 	NSString* command;
 	
-	while (command = [enumerator nextObject]) {
+	while ((command = [enumerator nextObject])) {
 		
 		NSString* selectorName = [commandDictionary objectForKey:command];
 		if (selectorName != nil){

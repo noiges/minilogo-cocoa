@@ -15,11 +15,10 @@
 	@private
 	IBOutlet NSScrollView* inputScrollView;
 	IBOutlet NSScrollView* outputScrollView;
+    IBOutlet NSSplitView* splitView;
+    IBOutlet NSProgressIndicator* progressIndicator;
 	
 	TNMiniLogoInterpreter* interpreter;
-	
-	NSTextView* inputTextView;
-	NSTextView* outputTextView;
 }
 
 -(id)init;

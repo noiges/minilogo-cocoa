@@ -14,7 +14,7 @@
 
 -(id)init{
 	
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		
 		x = [[NSNumber alloc]initWithInt:0];
 		y = [[NSNumber alloc]initWithInt:0];
