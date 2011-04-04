@@ -13,9 +13,13 @@
 @interface TNMiniLogoController : NSObject {
 
 	@private
-	IBOutlet NSScrollView* inputTextView;
-	IBOutlet NSScrollView* outputTextView;
+	IBOutlet NSScrollView* inputScrollView;
+	IBOutlet NSScrollView* outputScrollView;
+	
 	TNMiniLogoInterpreter* interpreter;
+	
+	NSTextView* inputTextView;
+	NSTextView* outputTextView;
 }
 
 -(id)init;

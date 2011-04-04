@@ -15,7 +15,14 @@
 -(id)init{
 
 	if (self = [super init]) {
+		
 		interpreter = [[TNMiniLogoInterpreter alloc]init];
+		
+		NSFont* font = [NSFont userFixedPitchFontOfSize:[NSFont systemFontSize]];
+		[[outputScrollView documentView ] setFont:font];
+		[[outputScrollView documentView] setString:@"Hello"];
+		[[[outputScrollView documentView] textStorage] setFont:font];
+		
 	}
 	
 	return self;
@@ -23,16 +30,18 @@
 
 -(IBAction)clearInputTextView:(id)sender{
 
-	[[inputTextView documentView]setString:@""];
-	[[outputTextView documentView]setString:@""];
+	[[inputScrollView documentView]setString:@""];
+	[[outputScrollView documentView]setString:@""];
 	
 }
 
 -(IBAction)drawOutputTextView:(id)sender{
 	
-	NSString* input = [[inputTextView documentView]string];
+	NSString* input = [[inputScrollView documentView]string];
 	NSString* output = [interpreter interpretMiniLogoString:input];
-	[[outputTextView documentView]setString:output];
+	[[outputScrollView documentView]setString:output];
+	[[inputScrollView animator ]setFrameSize:NSMakeSize([inputScrollView frame].size.width, 0)];
+
 	 
 }
 
