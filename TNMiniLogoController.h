@@ -17,11 +17,15 @@
 	IBOutlet NSScrollView* outputScrollView;
     IBOutlet NSSplitView* splitView;
     IBOutlet NSProgressIndicator* progressIndicator;
+    IBOutlet NSTextField* progressLabel;
 	
 	TNMiniLogoInterpreter* interpreter;
 }
 
 -(id)init;
+-(void)awakeFromNib;
+-(void)bgThread:(NSConnection *)connection;
+-(void)bgThreadIsDone:(id)obj;
 -(IBAction)clearInputTextView:(id)sender;
 -(IBAction)drawOutputTextView:(id)sender;
 -(void)dealloc;

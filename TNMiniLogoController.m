@@ -17,13 +17,42 @@
 	if ((self = [super init])) {
 		
 		interpreter = [[TNMiniLogoInterpreter alloc]init];
-        
-        //[[inputScrollView documentView] setString:@"DIR SE FWD 25 PEN_DOWN DIR S FWD 50 DIR E FWD 50 DIR N FWD 50 DIR W FWD 50 DIR NE FWD 25 DIR SE FWD 25 PEN_UP DIR W FWD 47 DIR S FWD 15 PEN_DOWN DIR S FWD 35 DIR E FWD 20 DIR N FWD 35 DIR W FWD 20"];
-		
+
 	}
 	
 	return self;
 }
+
+-(void)awakeFromNib{
+    
+    [[inputScrollView documentView] insertText:@"Insert your MiniLogo code here"];
+    [progressLabel setHidden:YES];
+    
+}
+
+- (void)bgThread:(NSConnection *)connection{
+    
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
+    //[NSThread sleepForTimeInterval:5];
+    
+    NSString* input = [[inputScrollView documentView]string];
+    NSString* output = [interpreter interpretMiniLogoString:input];
+    
+    [self performSelectorOnMainThread:@selector(bgThreadIsDone:) withObject:output waitUntilDone:NO];
+    [pool release];
+}
+
+- (void)bgThreadIsDone:(NSString*)output{
+    
+    [[outputScrollView documentView]setString:output];
+    [[[outputScrollView documentView] textStorage] setFont:[NSFont userFixedPitchFontOfSize:10]];
+    [[splitView animator] setPosition:[splitView minPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
+    [progressIndicator stopAnimation:nil];
+    [progressLabel setHidden:YES];
+    
+}
+
 
 -(IBAction)clearInputTextView:(id)sender{
 
@@ -35,18 +64,11 @@
 }
 
 -(IBAction)drawOutputTextView:(id)sender{
-	
-        
+    
     [progressIndicator startAnimation:sender];
+    [progressLabel setHidden:NO];
     
-	NSString* input = [[inputScrollView documentView]string];
-	NSString* output = [interpreter interpretMiniLogoString:input];
-	
-    [[outputScrollView documentView]setString:output];
-    
-    [[splitView animator] setPosition:[splitView minPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
-
-    [progressIndicator stopAnimation:sender];
+    [NSThread detachNewThreadSelector:@selector(bgThread:) toTarget:self withObject:nil];
 	 
 }
 
@@ -54,5 +76,7 @@
 	[interpreter release];
 	[super dealloc];
 }
+
+
 
 @end
