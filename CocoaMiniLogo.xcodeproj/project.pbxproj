@@ -35,6 +35,7 @@
 		7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMiniLogoController.m; sourceTree = "<group>"; };
 		7B5E3C6E12B6D3DF00996B49 /* TNMiniLogoInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNMiniLogoInterpreter.h; sourceTree = "<group>"; };
 		7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMiniLogoInterpreter.m; sourceTree = "<group>"; };
+		7B91D282134BAB0D00C02464 /* TNProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNProtocol.h; sourceTree = "<group>"; };
 		7BBA00A8134B419B004A6AC3 /* TNPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNPreferenceController.h; sourceTree = "<group>"; };
 		7BBA00A9134B419C004A6AC3 /* TNPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNPreferenceController.m; sourceTree = "<group>"; };
 		7BBA00AB134B4A5D004A6AC3 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 				7BF3999B12DF2B3500591ABC /* TNConstants.m */,
 				7BBA00A8134B419B004A6AC3 /* TNPreferenceController.h */,
 				7BBA00A9134B419C004A6AC3 /* TNPreferenceController.m */,
+				7B91D282134BAB0D00C02464 /* TNProtocol.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

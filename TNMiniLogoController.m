@@ -100,4 +100,8 @@
             
 }
 
+-(void)foo:(id)foo{
+    // This is pretty ridiculous
+}
+
 @end

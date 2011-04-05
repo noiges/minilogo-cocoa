@@ -7,11 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TNProtocol.h"
 
 @class TNMiniLogoInterpreter;
 @class TNPreferenceController;
 
-@interface TNMiniLogoController : NSObject {
+@interface TNMiniLogoController : NSObject <TNProtocol>{
 
 	@private
 	IBOutlet NSScrollView* inputScrollView;
