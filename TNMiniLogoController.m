@@ -62,7 +62,7 @@
 	[[inputScrollView documentView]setString:@""];
 	[[outputScrollView documentView]setString:@""];
     
-    [[splitView animator] setPosition:[splitView maxPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
+    //[[splitView animator] setPosition:[splitView maxPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
 	
 }
 
