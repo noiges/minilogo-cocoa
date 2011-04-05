@@ -11,6 +11,8 @@
 		256AC3DA0F4B6AC300CF3369 /* CocoaMiniLogoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CocoaMiniLogoAppDelegate.m */; };
 		7B5E3C4D12B6CDC400996B49 /* TNMiniLogoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */; };
 		7B5E3C7012B6D3DF00996B49 /* TNMiniLogoInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */; };
+		7BBA00AA134B419C004A6AC3 /* TNPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA00A9134B419C004A6AC3 /* TNPreferenceController.m */; };
+		7BBA00AC134B4A5D004A6AC3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BBA00AB134B4A5D004A6AC3 /* Preferences.xib */; };
 		7BF3997D12DF141500591ABC /* TNDrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */; };
 		7BF3999C12DF2B3500591ABC /* TNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3999B12DF2B3500591ABC /* TNConstants.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -33,6 +35,9 @@
 		7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMiniLogoController.m; sourceTree = "<group>"; };
 		7B5E3C6E12B6D3DF00996B49 /* TNMiniLogoInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNMiniLogoInterpreter.h; sourceTree = "<group>"; };
 		7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMiniLogoInterpreter.m; sourceTree = "<group>"; };
+		7BBA00A8134B419B004A6AC3 /* TNPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNPreferenceController.h; sourceTree = "<group>"; };
+		7BBA00A9134B419C004A6AC3 /* TNPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNPreferenceController.m; sourceTree = "<group>"; };
+		7BBA00AB134B4A5D004A6AC3 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		7BF3997B12DF141500591ABC /* TNDrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNDrawingBoard.h; sourceTree = "<group>"; };
 		7BF3997C12DF141500591ABC /* TNDrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNDrawingBoard.m; sourceTree = "<group>"; };
 		7BF3999A12DF2B3500591ABC /* TNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNConstants.h; sourceTree = "<group>"; };
@@ -66,6 +71,8 @@
 				7BF3997C12DF141500591ABC /* TNDrawingBoard.m */,
 				7BF3999A12DF2B3500591ABC /* TNConstants.h */,
 				7BF3999B12DF2B3500591ABC /* TNConstants.m */,
+				7BBA00A8134B419B004A6AC3 /* TNPreferenceController.h */,
+				7BBA00A9134B419C004A6AC3 /* TNPreferenceController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 				8D1107310486CEB800E47090 /* CocoaMiniLogo-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				7BBA00AB134B4A5D004A6AC3 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				7BBA00AC134B4A5D004A6AC3 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +213,7 @@
 				7B5E3C7012B6D3DF00996B49 /* TNMiniLogoInterpreter.m in Sources */,
 				7BF3997D12DF141500591ABC /* TNDrawingBoard.m in Sources */,
 				7BF3999C12DF2B3500591ABC /* TNConstants.m in Sources */,
+				7BBA00AA134B419C004A6AC3 /* TNPreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -126,21 +126,23 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319496540;
-			PBXWorkspaceStateSaveDate = 319496540;
+			PBXPerProjectTemplateStateSaveDate = 323605852;
+			PBXWorkspaceStateSaveDate = 323605852;
 		};
 		perUserProjectItems = {
 			7B476A7E12E0F01200088E0E /* PBXTextBookmark */ = 7B476A7E12E0F01200088E0E /* PBXTextBookmark */;
 			7B476BC912E1126A00088E0E /* PBXTextBookmark */ = 7B476BC912E1126A00088E0E /* PBXTextBookmark */;
-			7B476BCF12E1126A00088E0E /* PBXTextBookmark */ = 7B476BCF12E1126A00088E0E /* PBXTextBookmark */;
 			7B476BD012E1126A00088E0E /* PBXTextBookmark */ = 7B476BD012E1126A00088E0E /* PBXTextBookmark */;
 			7B476BD112E1126A00088E0E /* PBXTextBookmark */ = 7B476BD112E1126A00088E0E /* PBXTextBookmark */;
-			7B476BF112E11BA400088E0E /* PBXTextBookmark */ = 7B476BF112E11BA400088E0E /* PBXTextBookmark */;
 			7B476BF212E11BA400088E0E /* PBXTextBookmark */ = 7B476BF212E11BA400088E0E /* PBXTextBookmark */;
 			7B476BF312E11BA400088E0E /* PBXTextBookmark */ = 7B476BF312E11BA400088E0E /* PBXTextBookmark */;
 			7B476BF412E11BA400088E0E /* PBXTextBookmark */ = 7B476BF412E11BA400088E0E /* PBXTextBookmark */;
+			7B4AF0671349D688009DB1EE /* PBXTextBookmark */ = 7B4AF0671349D688009DB1EE /* PBXTextBookmark */;
+			7B4AF0681349D688009DB1EE /* PBXTextBookmark */ = 7B4AF0681349D688009DB1EE /* PBXTextBookmark */;
+			7B4AF0691349D688009DB1EE /* PBXTextBookmark */ = 7B4AF0691349D688009DB1EE /* PBXTextBookmark */;
+			7B4AF06A1349D688009DB1EE /* PBXTextBookmark */ = 7B4AF06A1349D688009DB1EE /* PBXTextBookmark */;
+			7B4AF06B1349D688009DB1EE /* PBXTextBookmark */ = 7B4AF06B1349D688009DB1EE /* PBXTextBookmark */;
 			7B74AE7F12E0BF17006BFF07 /* PBXTextBookmark */ = 7B74AE7F12E0BF17006BFF07 /* PBXTextBookmark */;
-			7B85C31F12E5F0390089AC46 /* PBXTextBookmark */ = 7B85C31F12E5F0390089AC46 /* PBXTextBookmark */;
 			7B85C35F12E5F66E0089AC46 /* PBXTextBookmark */ = 7B85C35F12E5F66E0089AC46 /* PBXTextBookmark */;
 			7B990A5D12DF561400A683D8 /* PBXTextBookmark */ = 7B990A5D12DF561400A683D8 /* PBXTextBookmark */;
 			7B990A6B12DF61C300A683D8 /* PBXTextBookmark */ = 7B990A6B12DF61C300A683D8 /* PBXTextBookmark */;
@@ -148,8 +150,6 @@
 			7BF399DB12DF457300591ABC /* PlistBookmark */ = 7BF399DB12DF457300591ABC /* PlistBookmark */;
 			7BF399DE12DF457300591ABC /* PBXTextBookmark */ = 7BF399DE12DF457300591ABC /* PBXTextBookmark */;
 			7BFC75DF130B25CF00798980 /* PBXTextBookmark */ = 7BFC75DF130B25CF00798980 /* PBXTextBookmark */;
-			7BFC75E0130B25CF00798980 /* PBXTextBookmark */ = 7BFC75E0130B25CF00798980 /* PBXTextBookmark */;
-			7BFC75E6130B288F00798980 /* PBXTextBookmark */ = 7BFC75E6130B288F00798980 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7B0B701112B62D6E000516F0 /* Source Control */;
 		userBuildSettings = {
@@ -235,16 +235,6 @@
 		vrLen = 329;
 		vrLoc = 0;
 	};
-	7B476BCF12E1126A00088E0E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7BF3997B12DF141500591ABC /* TNDrawingBoard.h */;
-		name = "TNDrawingBoard.h: 27";
-		rLen = 0;
-		rLoc = 544;
-		rType = 0;
-		vrLen = 859;
-		vrLoc = 0;
-	};
 	7B476BD012E1126A00088E0E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7BF3999B12DF2B3500591ABC /* TNConstants.m */;
@@ -264,16 +254,6 @@
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
-	};
-	7B476BF112E11BA400088E0E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
-		name = "TNDrawingBoard.m: 93";
-		rLen = 0;
-		rLoc = 2062;
-		rType = 0;
-		vrLen = 867;
-		vrLoc = 1328;
 	};
 	7B476BF212E11BA400088E0E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -305,18 +285,68 @@
 		vrLen = 388;
 		vrLoc = 0;
 	};
+	7B4AF0671349D688009DB1EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */;
+		name = "TNMiniLogoInterpreter.m: 263";
+		rLen = 0;
+		rLoc = 7672;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 3;
+	};
+	7B4AF0681349D688009DB1EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7BF3997B12DF141500591ABC /* TNDrawingBoard.h */;
+		name = "TNDrawingBoard.h: 27";
+		rLen = 0;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	7B4AF0691349D688009DB1EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7BF3997C12DF141500591ABC /* TNDrawingBoard.m */;
+		name = "TNDrawingBoard.m: 93";
+		rLen = 0;
+		rLoc = 2062;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 1328;
+	};
+	7B4AF06A1349D688009DB1EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B5E3C4B12B6CDC400996B49 /* TNMiniLogoController.h */;
+		name = "TNMiniLogoController.h: 19";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	7B4AF06B1349D688009DB1EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */;
+		name = "TNMiniLogoController.m: 44";
+		rLen = 0;
+		rLoc = 1090;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 181;
+	};
 	7B5E3C4B12B6CDC400996B49 /* TNMiniLogoController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1317, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 574}}";
 			sepNavSelRange = "{350, 0}";
 			sepNavVisRange = "{0, 565}";
 		};
 	};
 	7B5E3C4C12B6CDC400996B49 /* TNMiniLogoController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1619, 702}}";
-			sepNavSelRange = "{815, 59}";
-			sepNavVisRange = "{669, 489}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 715}}";
+			sepNavSelRange = "{1090, 0}";
+			sepNavVisRange = "{181, 1077}";
 		};
 	};
 	7B5E3C6E12B6D3DF00996B49 /* TNMiniLogoInterpreter.h */ = {
@@ -328,7 +358,7 @@
 	};
 	7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1317, 4186}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 4134}}";
 			sepNavSelRange = "{7672, 0}";
 			sepNavVisRange = "{3, 1398}";
 			sepNavWindowFrame = "{{636, 4}, {909, 1024}}";
@@ -350,16 +380,6 @@
 		name = NSObjCRuntime.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSObjCRuntime.h;
 		sourceTree = "<absolute>";
-	};
-	7B85C31F12E5F0390089AC46 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7B5E3C4B12B6CDC400996B49 /* TNMiniLogoController.h */;
-		name = "TNMiniLogoController.h: 19";
-		rLen = 0;
-		rLoc = 350;
-		rType = 0;
-		vrLen = 565;
-		vrLoc = 0;
 	};
 	7B85C35F12E5F66E0089AC46 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -417,16 +437,16 @@
 	};
 	7BF3997B12DF141500591ABC /* TNDrawingBoard.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1317, 577}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 574}}";
 			sepNavSelRange = "{544, 0}";
 			sepNavVisRange = "{0, 859}";
 		};
 	};
 	7BF3997C12DF141500591ABC /* TNDrawingBoard.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1619, 1261}}";
-			sepNavSelRange = "{2040, 0}";
-			sepNavVisRange = "{1239, 441}";
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 1352}}";
+			sepNavSelRange = "{2062, 0}";
+			sepNavVisRange = "{1328, 867}";
 			sepNavWindowFrame = "{{15, 4}, {909, 1024}}";
 		};
 	};
@@ -481,26 +501,6 @@
 		rType = 0;
 		vrLen = 1010;
 		vrLoc = 148;
-	};
-	7BFC75E0130B25CF00798980 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */;
-		name = "TNMiniLogoInterpreter.m: 263";
-		rLen = 0;
-		rLoc = 7672;
-		rType = 0;
-		vrLen = 1398;
-		vrLoc = 3;
-	};
-	7BFC75E6130B288F00798980 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7B5E3C6F12B6D3DF00996B49 /* TNMiniLogoInterpreter.m */;
-		name = "TNMiniLogoInterpreter.m: 263";
-		rLen = 0;
-		rLoc = 7672;
-		rType = 0;
-		vrLen = 1398;
-		vrLoc = 3;
 	};
 	8D1107260486CEB800E47090 /* CocoaMiniLogo */ = {
 		activeExec = 0;

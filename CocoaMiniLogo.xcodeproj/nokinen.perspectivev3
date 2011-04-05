@@ -280,8 +280,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
+									<integer>19</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7B0B700212B62D6E000516F0</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TNMiniLogoInterpreter.m</string>
+								<string>TNMiniLogoController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7B0B700312B62D6E000516F0</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TNMiniLogoInterpreter.m</string>
+										<string>TNMiniLogoController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7BFC75E6130B288F00798980</string>
+										<string>7B4AF06B1349D688009DB1EE</string>
 										<key>history</key>
 										<array>
 											<string>7BF399DB12DF457300591ABC</string>
@@ -342,17 +342,17 @@
 											<string>7B74AE7F12E0BF17006BFF07</string>
 											<string>7B476A7E12E0F01200088E0E</string>
 											<string>7B476BC912E1126A00088E0E</string>
-											<string>7B476BCF12E1126A00088E0E</string>
 											<string>7B476BD012E1126A00088E0E</string>
 											<string>7B476BD112E1126A00088E0E</string>
-											<string>7B476BF112E11BA400088E0E</string>
 											<string>7B476BF212E11BA400088E0E</string>
 											<string>7B476BF312E11BA400088E0E</string>
 											<string>7B476BF412E11BA400088E0E</string>
-											<string>7B85C31F12E5F0390089AC46</string>
 											<string>7B85C35F12E5F66E0089AC46</string>
+											<string>7B4AF0671349D688009DB1EE</string>
+											<string>7B4AF0681349D688009DB1EE</string>
+											<string>7B4AF0691349D688009DB1EE</string>
+											<string>7B4AF06A1349D688009DB1EE</string>
 											<string>7BFC75DF130B25CF00798980</string>
-											<string>7BFC75E0130B25CF00798980</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -366,18 +366,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1378, 613}}</string>
+								<string>{{0, 0}, {1378, 606}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1680 969 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>613pt</string>
+							<string>606pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>310pt</string>
+							<string>317pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -391,7 +391,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1378, 283}}</string>
+										<string>{{10, 27}, {1378, 290}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 59 1680 969 0 0 1680 1028 </string>
 									</dict>
@@ -475,11 +475,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7BFC75A3130B222100798980</string>
+				<string>7B4AF06C1349D688009DB1EE</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>7BFC75A4130B222100798980</string>
+				<string>7B4AF06D1349D688009DB1EE</string>
 				<string>7B0B700212B62D6E000516F0</string>
-				<string>7BFC75A5130B222100798980</string>
+				<string>7B4AF06E1349D688009DB1EE</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -628,14 +628,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7BFC75A6130B222100798980</string>
+				<string>7B4AF06F1349D688009DB1EE</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>7BFC75A7130B222100798980</string>
-				<string>7BFC75A8130B222100798980</string>
-				<string>7BFC75A9130B222100798980</string>
-				<string>7BFC75AA130B222100798980</string>
-				<string>7BFC75AB130B222100798980</string>
+				<string>7B4AF0701349D688009DB1EE</string>
+				<string>7B4AF0711349D688009DB1EE</string>
+				<string>7B4AF0721349D688009DB1EE</string>
+				<string>7B4AF0731349D688009DB1EE</string>
+				<string>7B4AF0741349D688009DB1EE</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -669,8 +669,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7BFC75AD130B222100798980</string>
-		<string>7BFC75AE130B222100798980</string>
+		<string>7B4AF0751349D688009DB1EE</string>
+		<string>7B4AF0761349D688009DB1EE</string>
 		<string>/Users/nokinen/Code/XCode/CocoaMiniLogo/CocoaMiniLogo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
