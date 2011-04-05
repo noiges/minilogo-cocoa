@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "TNMiniLogoInterpreter.h"
 
+@class TNMiniLogoInterpreter;
+@class TNPreferenceController;
 
 @interface TNMiniLogoController : NSObject {
 
@@ -18,8 +19,12 @@
     IBOutlet NSSplitView* splitView;
     IBOutlet NSProgressIndicator* progressIndicator;
     IBOutlet NSTextField* progressLabel;
+    
+    BOOL monospacedOutputFont;
 	
 	TNMiniLogoInterpreter* interpreter;
+    TNPreferenceController* preferenceController;
+    
 }
 
 -(id)init;
@@ -28,6 +33,8 @@
 -(void)bgThreadIsDone:(id)obj;
 -(IBAction)clearInputTextView:(id)sender;
 -(IBAction)drawOutputTextView:(id)sender;
+-(IBAction)showPreferences:(id)sender;
 -(void)dealloc;
+-(void)monospacedPreferenceChanged:(BOOL)state;
 
 @end

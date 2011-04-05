@@ -8,7 +8,7 @@
 
 #import "TNMiniLogoController.h"
 #import "TNMiniLogoInterpreter.h"
-
+#import "TNPreferenceController.h"
 
 @implementation TNMiniLogoController
 
@@ -17,6 +17,7 @@
 	if ((self = [super init])) {
 		
 		interpreter = [[TNMiniLogoInterpreter alloc]init];
+        preferenceController = [[TNPreferenceController alloc]initWithParent:self];
 
 	}
 	
@@ -46,7 +47,10 @@
 - (void)bgThreadIsDone:(NSString*)output{
     
     [[outputScrollView documentView]setString:output];
-    [[[outputScrollView documentView] textStorage] setFont:[NSFont userFixedPitchFontOfSize:10]];
+    
+    if(monospacedOutputFont)
+        [[[outputScrollView documentView] textStorage] setFont:[NSFont userFixedPitchFontOfSize:10]];
+    
     [[splitView animator] setPosition:[splitView minPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
     [progressIndicator stopAnimation:nil];
     [progressLabel setHidden:YES];
@@ -72,11 +76,27 @@
 	 
 }
 
+-(IBAction)showPreferences:(id)sender{
+    
+    [preferenceController showWindow:sender];
+    
+}
+
 -(void)dealloc{
 	[interpreter release];
 	[super dealloc];
 }
 
+-(void)monospacedPreferenceChanged:(BOOL)state{
 
+    monospacedOutputFont = state;
+    
+    if(state){
+        [[[outputScrollView documentView] textStorage] setFont:[NSFont userFixedPitchFontOfSize:10]];
+    }else{
+        [[[outputScrollView documentView] textStorage] setFont:[NSFont userFontOfSize:10]];
+    }
+            
+}
 
 @end
