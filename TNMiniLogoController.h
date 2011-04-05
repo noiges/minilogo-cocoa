@@ -24,6 +24,7 @@
 	
 	TNMiniLogoInterpreter* interpreter;
     TNPreferenceController* preferenceController;
+    NSAnimation* anim;
     
 }
 

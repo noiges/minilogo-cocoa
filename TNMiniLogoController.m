@@ -51,12 +51,11 @@
     if(monospacedOutputFont)
         [[[outputScrollView documentView] textStorage] setFont:[NSFont userFixedPitchFontOfSize:10]];
     
-    [[splitView animator] setPosition:[splitView minPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
+    //[[splitView animator] setPosition:[splitView minPossiblePositionOfDividerAtIndex:0] ofDividerAtIndex:0];
     [progressIndicator stopAnimation:nil];
     [progressLabel setHidden:YES];
     
 }
-
 
 -(IBAction)clearInputTextView:(id)sender{
 
@@ -73,6 +72,8 @@
     [progressLabel setHidden:NO];
     
     [NSThread detachNewThreadSelector:@selector(bgThread:) toTarget:self withObject:nil];
+    
+    //[[inputScrollView animator]setFrameSize:NSMakeSize([inputScrollView frame].size.width, 0)];
 	 
 }
 
